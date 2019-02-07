@@ -1,5 +1,7 @@
 ## useIntercom hook
 
+![minified](https://badgen.net/bundlephobia/min/react)
+![license](https://badgen.net/badge/license/MIT/blue)
 A React Hook to add Intercom to your site
 
 ### Installation
