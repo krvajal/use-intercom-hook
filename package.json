@@ -1,0 +1,26 @@
+{
+  "name": "use-intercom-hook",
+  "version": "0.1.0",
+  "description": "A React Hook for loading Intercom in your site",
+  "keywords": [
+    "hooks",
+    "intercom",
+    "react"
+  ],
+  "main": "dist/index.js",
+  "peerDependencies": {
+    "react": "16.8.0"
+  },
+  "devDependencies": {
+    "rollup": "^1.1.2"
+  },
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
