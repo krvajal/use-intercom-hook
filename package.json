@@ -1,6 +1,6 @@
 {
   "name": "use-intercom-hook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React Hook for loading Intercom in your site",
   "keywords": [
     "hooks",
@@ -12,7 +12,11 @@
     "react": "16.8.0"
   },
   "devDependencies": {
-    "rollup": "^1.1.2"
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^3.0.7"
   },
   "scripts": {
     "build": "rollup --config"
